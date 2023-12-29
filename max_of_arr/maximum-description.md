@@ -4,7 +4,9 @@
 Write an assembly function that finds the maximum in an array of integers (32-bit).
 
 ### Details
-
+```
+int get_max(int* a0, int a1);
+```
 ##### Input
 - `a0`: Pointer to the array.
 - `a1`: Length of the array.
