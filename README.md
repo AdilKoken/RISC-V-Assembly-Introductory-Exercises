@@ -3,10 +3,14 @@ collection of exercises designed to introduce students to the fundamental concep
 
 This repository is an unofficial supplement for students at the Technical University of Munich (TUM) enrolled in the Introduction to Computer Architecture course. However, it's also a valuable resource for anyone interested in learning RISC-V assembly language.
 
-# Objective
+## Environment
+
+This collection of exercises is designed to be used with the **[QtRvSim](https://github.com/cvut/qtrvsim)** environment, a user-friendly simulator tailored for RISC-V assembly language. QtRvSim provides an interactive and visual approach to learning assembly code, making it an ideal platform for beginners.
+
+## Objective
 
 The primary aim of this repository is to provide hands-on, practical exercises to enhance understanding of RISC-V assembly programming. These exercises are tailored to assist beginners in grasping the basic principles of assembly language in a structured and progressive manner.
 
-# Contribution
+## Contribution
 
 While this is an unofficial resource for TUM students, contributions are welcome. Whether it's fixing bugs, adding new exercises, or improving documentation, your input is valuable.
