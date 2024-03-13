@@ -5,17 +5,12 @@
 
 ; Example tree, don`t mind this part
 binary_tree: 
-    .word 2048, 1548, 1560  ;3
-    .word 2052, 1572, 0     ;2
-    .word 2056, 1584, 1596  ;8 
-    .word 2060, 0, 0        ;4
-    .word 2064, 0, 0        ;5
-    .word 2068, 0, 0        ;-6
-
-.org 0x800
-.data
-values:
-    .word 3, 2, 8, 4, 5, -6
+    .word 3, 1548, 1560  ;3
+    .word 2, 1572, 0     ;2
+    .word 8, 1584, 1596  ;8 
+    .word 4, 0, 0        ;4
+    .word 5, 0, 0        ;5
+    .word -6, 0, 0        ;-6
 
 .org 0x200
 .text
