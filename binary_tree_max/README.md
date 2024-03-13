@@ -36,10 +36,13 @@ The binary tree node is assumed to have the following structure:
 ## Example
 Consider a binary tree structured as follows:
 
+```plaintext
     3
    / \
   2   8
  /   / \
 4   5  -6
+```
+
 
 Calling `findMaxValue` on this tree should return `8`, as it is the maximum value in the tree.
