@@ -6,7 +6,7 @@
 
 
 _start:
-    li a0, 4 ;test with n = 4, return value should be in a0
+    li a0, 4
     jal ra, calc_triangular
     ebreak
 
@@ -17,9 +17,9 @@ _start:
 # s_2 = 3
 # For n ≥ 3: s_n = 3s_{n-1} - 3s_{n-2} + s_{n-3}
 # Arguments:
-# a0: n (the index of the element in the sequence to return)
+# a0: i (the index of the element in the sequence to return)
 # Output:
-# a0: The value of s_n
+# a0: The value of s_i
 
 calc_triangular:
     

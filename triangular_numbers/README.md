@@ -13,7 +13,6 @@ You may assume that 0 ≤ n ≤ 8.
 
 ## Details
 The first 9 elements in the sequence are 0, 1, 3, 6, 10, 15, 21, 28, 36.
-Note that 
 
 ### Input
 - `i`: Index of the element in the sequence.
