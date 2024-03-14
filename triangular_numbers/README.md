@@ -3,7 +3,7 @@
 ## Objective
 Implement a recursive algorithm to compute the element $s_i$ of the sequence
 of [triangular numbers](https://en.wikipedia.org/wiki/Triangular_number).
-You may assume that 0 ≤ n ≤ 8.
+You may assume that $0 \le n \le 8$.
 
 ## Definition of the sequence of triangular numbers
 - $s_0 = 0$

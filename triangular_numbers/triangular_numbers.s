@@ -16,10 +16,8 @@ _start:
 # s_1 = 1
 # s_2 = 3
 # For n ≥ 3: s_n = 3s_{n-1} - 3s_{n-2} + s_{n-3}
-# Arguments:
-# a0: i (the index of the element in the sequence to return)
-# Output:
-# a0: The value of s_i
+# Input:    a0 - Index of the element in the sequence to return
+# Output:   a0 - Value of s_i
 
 calc_triangular:
     
