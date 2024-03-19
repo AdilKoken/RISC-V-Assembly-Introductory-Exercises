@@ -1,4 +1,4 @@
-# Conversion from Binary to Decimal
+# Conversion from Decimal to Binary
 
 ## Objective
 Develop an assembly function that converts a decimal number (4 byte unsigned) into its binary representation (as an array of chars).
