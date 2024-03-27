@@ -62,7 +62,7 @@ calc_triangular:
     addi a0, a0, -3 ; set a0 to n-3
     jal calc_triangular
 
-    ; multiply and add everything togeter (a0 already contains s_{n-3})
+    ; multiply and add everything together (a0 already contains s_{n-3})
     addi t0, zero, 3
     lw t1, 8(sp)
     lw t2, 12(sp)
